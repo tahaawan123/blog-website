@@ -56,12 +56,12 @@ export default function Header() {
   <SheetContent className="w-[200px] sm:w-[540px]">
   <ul className=" space-y-5">
               <li>
-                <Link href="/" className="hover:text-gray-400 transition-colors">
+                <Link href="./" className="hover:text-gray-400 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-gray-400 transition-colors">
+                <Link href="/About" className="hover:text-gray-400 transition-colors">
                   About
                 </Link>
               </li>
@@ -71,7 +71,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-400 transition-colors">
+                <Link href="/Contact" className="hover:text-gray-400 transition-colors">
                   Contact
                 </Link>
               </li>
